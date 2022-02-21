@@ -28,7 +28,7 @@ const Navbar = () => {
             <div className={styles.text} style={{ cursor: "pointer" }}>THE BEST!</div>
           </Link>
 
-          <div className={styles.text}>012 345 678</div>
+          <div className={styles.text}>0702 610 175</div>
         </div>
       </div>
       <div className={styles.item}>
@@ -44,6 +44,11 @@ const Navbar = () => {
           <li className={styles.listItem} style={{ opacity: 0.4 }}>Events</li>
           <li className={styles.listItem} style={{ opacity: 0.4 }}>Blog</li>
           <li className={styles.listItem}>Contact</li>
+
+          <Link href='/admin'>
+            <li className={styles.listItem}>Admin</li>
+          </Link>
+
         </ul>
       </div>
 

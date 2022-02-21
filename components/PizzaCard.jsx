@@ -8,7 +8,7 @@ const PizzaCard = ({ pizza }) => {
     <div className={styles.container}>
 
       <Link href={`/product/${pizza._id}`}>
-        <Image src={pizza.img} alt="" width="500" height="500" />
+        <Image src={pizza.img} alt="" width="600" height="600" />
       </Link>
 
       <h1 className={styles.title}>{pizza.title}</h1>

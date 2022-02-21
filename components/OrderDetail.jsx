@@ -36,10 +36,10 @@ const OrderDetail = ({ total, createOrder }) => {
 
 
         <div className={styles.item}>
-          <label className={styles.label}>Address</label>
+          <label className={styles.label}>Address and Phone</label>
           <textarea
             rows={5}
-            placeholder="BCC block BCC 12"
+            placeholder="BCC block BCC 12, 0722 287 ..."
             type="text"
             className={styles.textarea}
             onChange={(e) => setAddress(e.target.value)}
